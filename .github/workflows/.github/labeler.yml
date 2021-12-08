@@ -1,0 +1,17 @@
+- name: Labeler
+  uses: actions/labeler@v3
+
+global:
+  enableConsulNamespaces: true
+
+syncCatalog:
+  enabled: true
+  consulNamespaces:
+    consulDestinationNamespace: 'my-consul-ns','cryptob3auty'
+
+<p>{{firstname}} {{lastname}}</p> partials: new_partial: '' 
+preparationScript: | // Handlebars.registerHelper('loud', function(string) { // return string.toUpperCase() // }); 
+: firstname: Aisha 
+lastname: Redl-Sherwood 
+Username: rose2161
+Organization: Cryptob3auty 
